@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile</title>
+    <!-- fontawesomeicons -->
+    <script src="https://kit.fontawesome.com/1c9ad4b785.js" crossorigin="anonymous"></script>
+    <!-- putting icon in the wesite tab-->
+    <link rel="icon" href="./images/favicon_new.ico" />
+    <!-- google font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- css file path-->
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <section id="title">
+        <div class="title_background"></div>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">My Profile</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link"  href="#title">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#qualities">Qualities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#interests_cards">Interests</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>        
+    </section>
+
+    <!-- qualities section -->
+    <section id="qualities">
+        <div class="container-fluid row">
+            <div class="col-lg-4">
+                <i class="fa fa-headphones fa-4x" aria-hidden="true"></i>
+                <h3>High Efficiency</h3>
+                <p>I don't get distracted that often</p>
+            </div>
+            <div class="col-lg-4">
+                <i class="fa fa-home fa-4x" aria-hidden="true"></i>
+                <h3>Work from Home</h3>
+                <p>I prefer working from home</p>
+            </div>
+            <div class="col-lg-4">
+                <i class="fa fa-heart fa-4x" aria-hidden="true"></i>
+                <h3>Work is Love</h3>
+                <p>I love working on the topics that garner my interest</p>
+            </div>
+        </div>
+    </section>
+     
+    <!-- Projects -->
+    <section id="projects">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/project1.jpeg" alt="image of an ambulance">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>To The Rescue</h3>
+                        <p>Website to help people during medical emergency.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/project2.jpeg"  alt="image of food on a dining table">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>My Online Food Store</h3>
+                        <p>To allow people order food online through our website.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/project3.jpeg"  alt="image of a dog">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>TinDog</h3>
+                        <p>Website to help dogs find their true ❤️.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>       
+    </section>
+
+    <!-- companies section -->
+    <section id="companies">
+        <div">
+            <img src="./images/company1.png" alt="VSC logo">
+            <img src="./images/company2.png" alt="Udemy logo">
+            <img src="./images/company3.png" alt="Pexels logo">
+        </div>
+    </section>
+
+    <!-- my interests -->
+    <section id="interests_cards">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">WEB DEVELOPMENT</h3>
+                        <p class="card-text">I've been doing web dev for the past 6 months(as of Jan, 2022). There has been ups and downs but I kept myself composed and continued trying it.</p>
+                        <a href="#" class="btn btn-primary">Projects</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">JAVA</h3>
+                        <p class="card-text">I've done JAVA back in my school days (grade 9 and 10) and have again started it recently. Hoping to have a firm grip on this programming language as soon as I can.</p>
+                        
+                        <a href="#" class="btn btn-primary">Projects</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">ENGINEERING</h3>
+                        <p class="card-text">I'm an ECE undergrad, from VIT, Vellore. I always wanted to pursue engineering and I'm actually loving it. I'm currently in my 2nd year and will graduate from my college in 2024.</p>
+                        <a href="#" class="btn btn-primary ">Projects</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact me -->
+    <section id="contact">
+        <div class="container">
+            <div class="image"><img src="./images/Contact-us.png" alt="contact us "></div>
+            <div class="sub-heading">
+                <h3>GET IN TOUCH WITH ME</h3>
+                <p>Enter your contact details</p>
+            </div>
+            <div class="email">
+                <p>Email</p>
+                <input type="email" name="" id="">
+            </div>
+            <div class="number">
+                <p>Contact number</p>
+                <input type="number" name="" id="">
+            </div>
+            <div class="submit">
+                <button type="submit" class="submit_button">Submit</button>
+                <p>Want to subscribe to my newletter? <a href=""> Click here</a></p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="icons">
+            <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+            <p>&copy Copyright 2022, Amarjit Dey </p>
+        </div>
+        
+    </section>
+</body>
+
+</html>
